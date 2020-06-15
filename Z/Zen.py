@@ -72,8 +72,7 @@ print(Fore.YELLOW+"""-----#deanonymization#-----
 [20] - Tools
 [21] - Banner
 [22] - ADB-Termux Installer
-[23] - b0mb3r
-[24] - Tool-X""")
+[23] - Tool-X""")
 
 
 #deanonymization
@@ -230,21 +229,8 @@ while True:
             os.system('bash InstallTools.sh')
         elif adbinstall == (2):
             os.system('bash RemoveTools.sh')
-        
+
     elif num == ('23') :
-        print(Fore.GREEN + 'Starting b0mb3r')
-        os.system('clear')
-        os.chdir('b0mb3r')
-        print(Fore.GREEN + '[1] - Install b0mb3r [2] - Start b0mb3r')
-        b0mb3r = int(input(''))
-        if b0mb3r == (1):
-            os.system('bash requirements.txt && python setup.py')
-            os.system('clear')
-            os.system('b0mb3r')
-        elif b0mb3r == (2):
-            os.system('clear')
-            os.system('b0mb3r')
-    elif num == ('24') :
         print(Fore.GREEN + 'Starting Tool-X')
         os.system('clear')
         os.chdir('Tool-X')
