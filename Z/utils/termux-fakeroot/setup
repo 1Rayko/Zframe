@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+echo -e ""
+echo -e "\033[34m[+]\033[0m installing dependencies"
+sleep 2;apt install -y proot &> /dev//null
+echo -e "\033[34m[+]\033[0m dependencies installed"
+echo -e "\033[34m[+]\033[0m configurating termux-root"
+sleep 2;mv root ~/../usr/bin && chmod +x ~/../usr/bin/root && root
