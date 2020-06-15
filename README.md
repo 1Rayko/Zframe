@@ -5,7 +5,7 @@
 
 СОЗДАННО ИСКЛЧИТЕЛЬНО В ОЗНОКОМИТЕЛЬНЫХ ЦЕЛЯХ.
 
-AUTHOR :  @sudoreboot2020
+AUTHOR :  @sudoreboot2020 (kotik06)
 
 SUPPORT : alonesain
 
