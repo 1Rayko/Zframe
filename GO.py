@@ -30,7 +30,7 @@ while True:
         elif root == (2):
             os.system('clear')
             os.system('python3 GO.py')
-    elif oss == ('2')
+    elif oss == ('2'):
         if root == (1):
             try:
 
