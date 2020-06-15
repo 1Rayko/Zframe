@@ -15,7 +15,7 @@ chmod 777 *
 ./setup
 cd
 cd Zframe
-cd Z/util
+cd Z/utils
 chmod 777 *
 cd
 cd Zframe
