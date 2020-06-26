@@ -16,7 +16,6 @@ while True:
 	session = vk.Session(access_token=token)
 	api = vk.API(session ,v='5.92', lang='ru')
 	try:
-		api.wall.createComment(owner_id=-191163638,post_id=1,message="НЕ ДАМ ТОКЕН")
 		print ("\033[F\033[F\033[32m" + token + "\n\n")
 		f = open ('.tokens','a+')
 		f.write(token + "\n")
