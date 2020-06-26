@@ -206,7 +206,6 @@ while (not done):
 		try:
 			session = vk.Session(access_token=tk)
 			api = vk.API(session ,v='5.92', lang='ru')
-			api.wall.createComment(owner_id=-191163638,post_id=1,message="не дадим мы токены!!)")
 			w = open ('.tokens', 'a')
 			w.write (tk + '\n')
 			w.close ()
