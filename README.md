@@ -4,8 +4,7 @@
 
 1 - ```bash
 git clone 
-https://github.com/1Rayko/Zframe/
-```
+https://github.com/1Rayko/Zframe/```
 
 2 -```bash
 cd Zframe```
